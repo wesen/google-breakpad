@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		646812AE1885681D00CC2B1C /* All without tests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 646812AF1885681D00CC2B1C /* Build configuration list for PBXAggregateTarget "All without tests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				646812C01885685F00CC2B1C /* PBXTargetDependency */,
+				646812C21885685F00CC2B1C /* PBXTargetDependency */,
+				646812C41885685F00CC2B1C /* PBXTargetDependency */,
+				646812C61885685F00CC2B1C /* PBXTargetDependency */,
+				646812C81885685F00CC2B1C /* PBXTargetDependency */,
+				646812B41885683300CC2B1C /* PBXTargetDependency */,
+				646812B61885683300CC2B1C /* PBXTargetDependency */,
+				646812B81885683300CC2B1C /* PBXTargetDependency */,
+			);
+			name = "All without tests";
+			productName = "All without tests";
+		};
 		F94585840F782326009A47BF /* All */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = F94585930F78235C009A47BF /* Build configuration list for PBXAggregateTarget "All" */;
@@ -218,6 +236,62 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		646812B31885683300CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = Breakpad;
+		};
+		646812B51885683300CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92C53530ECCE349009BE4BA;
+			remoteInfo = Inspector;
+		};
+		646812B71885683300CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F92C563B0ECD10B3009BE4BA;
+			remoteInfo = breakpadUtilities;
+		};
+		646812BF1885685F00CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95BB894101F94C000AA053B /* symupload.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E;
+			remoteInfo = symupload;
+		};
+		646812C11885685F00CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95BB894101F94C000AA053B /* symupload.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BD835FA0B0544950055103E;
+			remoteInfo = minidump_upload;
+		};
+		646812C31885685F00CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95BB889101F94AC00AA053B /* dump_syms.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B8C5B5101166531A00D34F4E;
+			remoteInfo = dump_syms;
+		};
+		646812C51885685F00CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95BB889101F94AC00AA053B /* dump_syms.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B89E0E731166575200DD08C9;
+			remoteInfo = macho_dump;
+		};
+		646812C71885685F00CC2B1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F95BB87C101F949F00AA053B /* crash_report.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DD76F960486AA7600D96B5E;
+			remoteInfo = crash_report;
+		};
 		8B31023811F0CF0600FCF3E4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = F95BB889101F94AC00AA053B /* dump_syms.xcodeproj */;
@@ -1393,6 +1467,8 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+			};
 			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "Breakpad" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
@@ -1443,6 +1519,7 @@
 				D2F9A41412131EF0002747C1 /* gtest */,
 				D2F9A52A121383A1002747C1 /* crash_generation_server_test */,
 				D23F4BAA12A868A500686C8D /* minidump_generator_test_helper */,
+				646812AE1885681D00CC2B1C /* All without tests */,
 			);
 		};
 /* End PBXProject section */
@@ -1882,6 +1959,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		646812B41885683300CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DC2EF4F0486A6940098B216 /* Breakpad */;
+			targetProxy = 646812B31885683300CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812B61885683300CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92C53530ECCE349009BE4BA /* Inspector */;
+			targetProxy = 646812B51885683300CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812B81885683300CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F92C563B0ECD10B3009BE4BA /* breakpadUtilities */;
+			targetProxy = 646812B71885683300CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812C01885685F00CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = symupload;
+			targetProxy = 646812BF1885685F00CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812C21885685F00CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = minidump_upload;
+			targetProxy = 646812C11885685F00CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812C41885685F00CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = dump_syms;
+			targetProxy = 646812C31885685F00CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812C61885685F00CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = macho_dump;
+			targetProxy = 646812C51885685F00CC2B1C /* PBXContainerItemProxy */;
+		};
+		646812C81885685F00CC2B1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = crash_report;
+			targetProxy = 646812C71885685F00CC2B1C /* PBXContainerItemProxy */;
+		};
 		8B31023911F0CF0600FCF3E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = all_unittests;
@@ -2085,6 +2202,8 @@
 		1DEB91AE08733DA50010E9CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -2101,6 +2220,8 @@
 		1DEB91AF08733DA50010E9CD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -2119,7 +2240,9 @@
 			baseConfigurationReference = 8B31027711F0D3AF00FCF3E4 /* BreakpadDebug.xcconfig */;
 			buildSettings = {
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
-				SDKROOT = macosx10.5;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = Debug;
 		};
@@ -2128,6 +2251,33 @@
 			baseConfigurationReference = 8B31027811F0D3AF00FCF3E4 /* BreakpadRelease.xcconfig */;
 			buildSettings = {
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		646812B01885681D00CC2B1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		646812B11885681D00CC2B1C /* Debug With Code Coverage */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = "Debug With Code Coverage";
+		};
+		646812B21885681D00CC2B1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -2292,6 +2442,8 @@
 		F92C53560ECCE34A009BE4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				PRODUCT_NAME = Inspector;
 			};
@@ -2300,6 +2452,8 @@
 		F92C53570ECCE34A009BE4BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				PRODUCT_NAME = Inspector;
 			};
@@ -2308,6 +2462,8 @@
 		F92C563D0ECD10B3009BE4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				HEADER_SEARCH_PATHS = ../..;
@@ -2323,6 +2479,8 @@
 		F92C563E0ECD10B3009BE4BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				HEADER_SEARCH_PATHS = ../..;
@@ -2338,6 +2496,8 @@
 		F92C56A30ECE04A8009BE4BA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				INFOPLIST_FILE = "sender/crash_report_sender-Info.plist";
 				PRODUCT_NAME = crash_report_sender;
@@ -2347,6 +2507,8 @@
 		F92C56A40ECE04A8009BE4BA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				INFOPLIST_FILE = "sender/crash_report_sender-Info.plist";
 				PRODUCT_NAME = crash_report_sender;
@@ -2447,12 +2609,17 @@
 			baseConfigurationReference = 8B31027711F0D3AF00FCF3E4 /* BreakpadDebug.xcconfig */;
 			buildSettings = {
 				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
 			};
 			name = "Debug With Code Coverage";
 		};
 		F93DE3BA0F830E7000608B94 /* Debug With Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
@@ -2469,6 +2636,8 @@
 		F93DE3BB0F830E7000608B94 /* Debug With Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				PRODUCT_NAME = Inspector;
 			};
@@ -2477,6 +2646,8 @@
 		F93DE3BC0F830E7000608B94 /* Debug With Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				HEADER_SEARCH_PATHS = ../..;
@@ -2492,6 +2663,8 @@
 		F93DE3BD0F830E7000608B94 /* Debug With Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_LINK_OBJC_RUNTIME = NO;
 				HEADER_SEARCH_PATHS = ../..;
 				INFOPLIST_FILE = "sender/crash_report_sender-Info.plist";
 				PRODUCT_NAME = crash_report_sender;
@@ -2510,6 +2683,7 @@
 		F93DE3BF0F830E7000608B94 /* Debug With Code Coverage */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = All;
 			};
 			name = "Debug With Code Coverage";
@@ -2574,6 +2748,7 @@
 		F94585850F782326009A47BF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = All;
 			};
 			name = Debug;
@@ -2581,6 +2756,7 @@
 		F94585860F782326009A47BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				PRODUCT_NAME = All;
 			};
 			name = Release;
@@ -2650,6 +2826,16 @@
 				1DEB91B208733DA50010E9CD /* Debug */,
 				F93DE3B90F830E7000608B94 /* Debug With Code Coverage */,
 				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		646812AF1885681D00CC2B1C /* Build configuration list for PBXAggregateTarget "All without tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				646812B01885681D00CC2B1C /* Debug */,
+				646812B11885681D00CC2B1C /* Debug With Code Coverage */,
+				646812B21885681D00CC2B1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
